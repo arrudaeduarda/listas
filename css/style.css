@@ -1,0 +1,26 @@
+.Menu, .Menu1, .Menu2,  .Menu3, .Menu4, .Menu5{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+    color: #f0f0f0;
+    font-size: 2em;
+    padding: 30px 10px;
+}
+.Menu2{
+    background-color: aqua;
+    justify-content:space-between;
+}
+.Menu3{
+    background-color: blueviolet;
+    justify-content: space-evenly;
+}
+.Menu4{
+    background-color: brown;
+    justify-content: left;
+}
+.Menu5{
+    background-color: cornflowerblue;
+    justify-content: right;
+}
